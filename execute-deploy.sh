@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd /home/ec2-user/docker-image
-pwd
-./deploy.sh > /dev/null 2> /home/ec2-user/error < /dev/null &
+ls
+./deploy.sh 1> /home/ec2-user/stdoutResult 2> /home/ec2-user/error < /dev/null &
